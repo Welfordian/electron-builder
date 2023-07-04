@@ -1,5 +1,6 @@
 {
   "name": "@electron-builder/monorepo",
+  "version": "24.2.2",
   "private": true,
   "license": "MIT",
   "lint-staged": {
