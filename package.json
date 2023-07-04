@@ -1,5 +1,5 @@
 {
-  "name": "@electron-builder/monorepo",
+  "name": "electron-builder",
   "version": "24.2.2",
   "private": true,
   "license": "MIT",
