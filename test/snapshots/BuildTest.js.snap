@@ -1,0 +1,2193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`afterPack 1`] = `
+Object {
+  "linux": Array [],
+  "mac": Array [],
+}
+`;
+
+exports[`afterSign 1`] = `
+Object {
+  "linux": Array [],
+  "win": Array [],
+}
+`;
+
+exports[`beforeBuild 1`] = `
+Object {
+  "linux": Array [],
+  "mac": Array [],
+}
+`;
+
+exports[`build in the app package.json 1`] = `"ERR_ELECTRON_BUILDER_INVALID_CONFIGURATION"`;
+
+exports[`cli 1`] = `
+Object {
+  "targets": Map {
+    Platform {
+      "buildConfigurationKey": "mac",
+      "name": "mac",
+      "nodeName": "darwin",
+    } => Map {
+      1 => Array [
+        "dir",
+      ],
+    },
+  },
+}
+`;
+
+exports[`cli 2`] = `
+Object {
+  "targets": Map {
+    Platform {
+      "buildConfigurationKey": "linux",
+      "name": "linux",
+      "nodeName": "linux",
+    } => Map {},
+  },
+}
+`;
+
+exports[`cli 3`] = `
+Object {
+  "targets": Map {
+    Platform {
+      "buildConfigurationKey": "win",
+      "name": "windows",
+      "nodeName": "win32",
+    } => Map {},
+  },
+}
+`;
+
+exports[`cli 4`] = `
+Object {
+  "targets": Map {
+    Platform {
+      "buildConfigurationKey": "mac",
+      "name": "mac",
+      "nodeName": "darwin",
+    } => Map {},
+    Platform {
+      "buildConfigurationKey": "linux",
+      "name": "linux",
+      "nodeName": "linux",
+    } => Map {},
+    Platform {
+      "buildConfigurationKey": "win",
+      "name": "windows",
+      "nodeName": "win32",
+    } => Map {},
+  },
+}
+`;
+
+exports[`cli 5`] = `
+Object {
+  "targets": Map {
+    Platform {
+      "buildConfigurationKey": "linux",
+      "name": "linux",
+      "nodeName": "linux",
+    } => Map {
+      0 => Array [
+        "tar.gz",
+      ],
+    },
+  },
+}
+`;
+
+exports[`cli 6`] = `
+Object {
+  "targets": Map {
+    Platform {
+      "buildConfigurationKey": "linux",
+      "name": "linux",
+      "nodeName": "linux",
+    } => Map {
+      1 => Array [
+        "tar.gz",
+      ],
+    },
+  },
+}
+`;
+
+exports[`cli 7`] = `
+Object {
+  "targets": Map {
+    Platform {
+      "buildConfigurationKey": "linux",
+      "name": "linux",
+      "nodeName": "linux",
+    } => Map {
+      1 => Array [
+        "tar.gz",
+      ],
+    },
+  },
+}
+`;
+
+exports[`cli 8`] = `
+Object {
+  "targets": Map {
+    Platform {
+      "buildConfigurationKey": "win",
+      "name": "windows",
+      "nodeName": "win32",
+    } => Map {
+      1 => Array [
+        "tar.gz",
+      ],
+    },
+  },
+}
+`;
+
+exports[`cli 9`] = `
+Object {
+  "publish": "always",
+  "targets": Map {
+    Platform {
+      "buildConfigurationKey": "win",
+      "name": "windows",
+      "nodeName": "win32",
+    } => Map {
+      1 => Array [],
+    },
+  },
+}
+`;
+
+exports[`cli 10`] = `
+Object {
+  "prepackaged": "someDir",
+  "targets": Map {
+    Platform {
+      "buildConfigurationKey": "win",
+      "name": "windows",
+      "nodeName": "win32",
+    } => Map {
+      1 => Array [],
+    },
+  },
+}
+`;
+
+exports[`cli 11`] = `
+Object {
+  "projectDir": "someDir",
+  "targets": Map {
+    Platform {
+      "buildConfigurationKey": "win",
+      "name": "windows",
+      "nodeName": "win32",
+    } => Map {
+      1 => Array [],
+    },
+  },
+}
+`;
+
+exports[`electron version from build 1`] = `
+Object {
+  "linux": Array [],
+}
+`;
+
+exports[`electron version from electron dependency 1`] = `
+Object {
+  "linux": Array [],
+}
+`;
+
+exports[`electron version from electron-prebuilt dependency 1`] = `
+Object {
+  "linux": Array [],
+}
+`;
+
+exports[`posix smart unpack 1`] = `
+Object {
+  "linux": Array [],
+}
+`;
+
+exports[`posix smart unpack 2`] = `
+Object {
+  "files": Object {
+    "app": Object {
+      "files": Object {
+        "package.json": Object {
+          "files": Object {
+            "readme.md": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "readme.md": Object {
+          "size": "<size>",
+        },
+      },
+    },
+    "index.html": Object {
+      "size": "<size>",
+    },
+    "index.js": Object {
+      "size": "<size>",
+    },
+    "node_modules": Object {
+      "files": Object {
+        "ansi-regex": Object {
+          "files": Object {
+            "index.js": Object {
+              "size": "<size>",
+            },
+            "license": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "aproba": Object {
+          "files": Object {
+            "LICENSE": Object {
+              "size": "<size>",
+            },
+            "index.js": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "are-we-there-yet": Object {
+          "files": Object {
+            "CHANGES.md": Object {
+              "size": "<size>",
+            },
+            "LICENSE": Object {
+              "size": "<size>",
+            },
+            "index.js": Object {
+              "size": "<size>",
+            },
+            "node_modules": Object {
+              "files": Object {
+                "readable-stream": Object {
+                  "files": Object {
+                    "CONTRIBUTING.md": Object {
+                      "size": "<size>",
+                    },
+                    "GOVERNANCE.md": Object {
+                      "size": "<size>",
+                    },
+                    "LICENSE": Object {
+                      "size": "<size>",
+                    },
+                    "doc": Object {
+                      "files": Object {
+                        "wg-meetings": Object {
+                          "files": Object {
+                            "2015-01-30.md": Object {
+                              "size": "<size>",
+                            },
+                          },
+                        },
+                      },
+                    },
+                    "duplex-browser.js": Object {
+                      "size": "<size>",
+                    },
+                    "duplex.js": Object {
+                      "size": "<size>",
+                    },
+                    "lib": Object {
+                      "files": Object {
+                        "_stream_duplex.js": Object {
+                          "size": "<size>",
+                        },
+                        "_stream_passthrough.js": Object {
+                          "size": "<size>",
+                        },
+                        "_stream_readable.js": Object {
+                          "size": "<size>",
+                        },
+                        "_stream_transform.js": Object {
+                          "size": "<size>",
+                        },
+                        "_stream_writable.js": Object {
+                          "size": "<size>",
+                        },
+                        "internal": Object {
+                          "files": Object {
+                            "streams": Object {
+                              "files": Object {
+                                "BufferList.js": Object {
+                                  "size": "<size>",
+                                },
+                                "destroy.js": Object {
+                                  "size": "<size>",
+                                },
+                                "stream-browser.js": Object {
+                                  "size": "<size>",
+                                },
+                                "stream.js": Object {
+                                  "size": "<size>",
+                                },
+                              },
+                            },
+                          },
+                        },
+                      },
+                    },
+                    "package.json": Object {
+                      "size": "<size>",
+                    },
+                    "passthrough.js": Object {
+                      "size": "<size>",
+                    },
+                    "readable-browser.js": Object {
+                      "size": "<size>",
+                    },
+                    "readable.js": Object {
+                      "size": "<size>",
+                    },
+                    "transform.js": Object {
+                      "size": "<size>",
+                    },
+                    "writable-browser.js": Object {
+                      "size": "<size>",
+                    },
+                    "writable.js": Object {
+                      "size": "<size>",
+                    },
+                  },
+                },
+                "string_decoder": Object {
+                  "files": Object {
+                    "LICENSE": Object {
+                      "size": "<size>",
+                    },
+                    "lib": Object {
+                      "files": Object {
+                        "string_decoder.js": Object {
+                          "size": "<size>",
+                        },
+                      },
+                    },
+                    "package.json": Object {
+                      "size": "<size>",
+                    },
+                  },
+                },
+              },
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+            "tracker-base.js": Object {
+              "size": "<size>",
+            },
+            "tracker-group.js": Object {
+              "size": "<size>",
+            },
+            "tracker-stream.js": Object {
+              "size": "<size>",
+            },
+            "tracker.js": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "base64-js": Object {
+          "files": Object {
+            "LICENSE": Object {
+              "size": "<size>",
+            },
+            "base64js.min.js": Object {
+              "size": "<size>",
+            },
+            "index.js": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "bl": Object {
+          "files": Object {
+            "BufferList.js": Object {
+              "size": "<size>",
+            },
+            "LICENSE.md": Object {
+              "size": "<size>",
+            },
+            "bl.js": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "buffer": Object {
+          "files": Object {
+            "AUTHORS.md": Object {
+              "size": "<size>",
+            },
+            "LICENSE": Object {
+              "size": "<size>",
+            },
+            "index.js": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "chownr": Object {
+          "files": Object {
+            "LICENSE": Object {
+              "size": "<size>",
+            },
+            "chownr.js": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "code-point-at": Object {
+          "files": Object {
+            "index.js": Object {
+              "size": "<size>",
+            },
+            "license": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "console-control-strings": Object {
+          "files": Object {
+            "LICENSE": Object {
+              "size": "<size>",
+            },
+            "README.md~": Object {
+              "size": "<size>",
+            },
+            "index.js": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "core-util-is": Object {
+          "files": Object {
+            "LICENSE": Object {
+              "size": "<size>",
+            },
+            "lib": Object {
+              "files": Object {
+                "util.js": Object {
+                  "size": "<size>",
+                },
+              },
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "debug": Object {
+          "files": Object {
+            "LICENSE": Object {
+              "size": "<size>",
+            },
+            "dist": Object {
+              "files": Object {
+                "debug.js": Object {
+                  "size": "<size>",
+                },
+              },
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+            "src": Object {
+              "files": Object {
+                "browser.js": Object {
+                  "size": "<size>",
+                },
+                "common.js": Object {
+                  "size": "<size>",
+                },
+                "index.js": Object {
+                  "size": "<size>",
+                },
+                "node.js": Object {
+                  "size": "<size>",
+                },
+              },
+            },
+          },
+        },
+        "decompress-response": Object {
+          "files": Object {
+            "index.js": Object {
+              "size": "<size>",
+            },
+            "license": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "deep-extend": Object {
+          "files": Object {
+            "LICENSE": Object {
+              "size": "<size>",
+            },
+            "index.js": Object {
+              "size": "<size>",
+            },
+            "lib": Object {
+              "files": Object {
+                "deep-extend.js": Object {
+                  "size": "<size>",
+                },
+              },
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "delegates": Object {
+          "files": Object {
+            "History.md": Object {
+              "size": "<size>",
+            },
+            "License": Object {
+              "size": "<size>",
+            },
+            "Makefile": Object {
+              "size": "<size>",
+            },
+            "index.js": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "detect-libc": Object {
+          "files": Object {
+            "LICENSE": Object {
+              "size": "<size>",
+            },
+            "bin": Object {
+              "files": Object {
+                "detect-libc.js": Object {
+                  "executable": true,
+                  "size": "<size>",
+                },
+              },
+            },
+            "lib": Object {
+              "files": Object {
+                "detect-libc.js": Object {
+                  "size": "<size>",
+                },
+              },
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "edge-cs": Object {
+          "files": Object {
+            "LICENSE.txt": Object {
+              "size": "<size>",
+            },
+            "lib": Object {
+              "files": Object {
+                "bootstrap": Object {
+                  "files": Object {
+                    "Dummy.cs": Object {
+                      "size": "<size>",
+                    },
+                    "project.json": Object {
+                      "size": "<size>",
+                    },
+                  },
+                },
+                "edge-cs.js": Object {
+                  "size": "<size>",
+                },
+              },
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+            "src": Object {
+              "files": Object {
+                "Edge.js.CSharp": Object {
+                  "files": Object {
+                    "EdgeCompiler.cs": Object {
+                      "size": "<size>",
+                    },
+                    "gulpfile.js": Object {
+                      "size": "<size>",
+                    },
+                    "package.json": Object {
+                      "size": "<size>",
+                    },
+                    "project.json": Object {
+                      "size": "<size>",
+                    },
+                  },
+                },
+                "edge-cs": Object {
+                  "files": Object {
+                    "EdgeCompiler.cs": Object {
+                      "size": "<size>",
+                    },
+                    "Properties": Object {
+                      "files": Object {
+                        "AssemblyInfo.cs": Object {
+                          "size": "<size>",
+                        },
+                      },
+                    },
+                  },
+                },
+              },
+            },
+            "tools": Object {
+              "files": Object {
+                "install.js": Object {
+                  "size": "<size>",
+                },
+              },
+            },
+          },
+        },
+        "emoji-regex": Object {
+          "files": Object {
+            "LICENSE-MIT.txt": Object {
+              "size": "<size>",
+            },
+            "es2015": Object {
+              "files": Object {
+                "index.js": Object {
+                  "size": "<size>",
+                },
+                "text.js": Object {
+                  "size": "<size>",
+                },
+              },
+            },
+            "index.js": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+            "text.js": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "end-of-stream": Object {
+          "files": Object {
+            "LICENSE": Object {
+              "size": "<size>",
+            },
+            "index.js": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "expand-template": Object {
+          "files": Object {
+            "LICENSE": Object {
+              "size": "<size>",
+            },
+            "index.js": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "fs-constants": Object {
+          "files": Object {
+            "LICENSE": Object {
+              "size": "<size>",
+            },
+            "browser.js": Object {
+              "size": "<size>",
+            },
+            "index.js": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "gauge": Object {
+          "files": Object {
+            "LICENSE": Object {
+              "size": "<size>",
+            },
+            "base-theme.js": Object {
+              "size": "<size>",
+            },
+            "error.js": Object {
+              "size": "<size>",
+            },
+            "has-color.js": Object {
+              "size": "<size>",
+            },
+            "index.js": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+            "plumbing.js": Object {
+              "size": "<size>",
+            },
+            "process.js": Object {
+              "size": "<size>",
+            },
+            "progress-bar.js": Object {
+              "size": "<size>",
+            },
+            "render-template.js": Object {
+              "size": "<size>",
+            },
+            "set-immediate.js": Object {
+              "size": "<size>",
+            },
+            "set-interval.js": Object {
+              "size": "<size>",
+            },
+            "spin.js": Object {
+              "size": "<size>",
+            },
+            "template-item.js": Object {
+              "size": "<size>",
+            },
+            "theme-set.js": Object {
+              "size": "<size>",
+            },
+            "themes.js": Object {
+              "size": "<size>",
+            },
+            "wide-truncate.js": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "github-from-package": Object {
+          "files": Object {
+            "LICENSE": Object {
+              "size": "<size>",
+            },
+            "index.js": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "has-unicode": Object {
+          "files": Object {
+            "LICENSE": Object {
+              "size": "<size>",
+            },
+            "index.js": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "ieee754": Object {
+          "files": Object {
+            "LICENSE": Object {
+              "size": "<size>",
+            },
+            "index.js": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "inherits": Object {
+          "files": Object {
+            "LICENSE": Object {
+              "size": "<size>",
+            },
+            "inherits.js": Object {
+              "size": "<size>",
+            },
+            "inherits_browser.js": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "ini": Object {
+          "files": Object {
+            "LICENSE": Object {
+              "size": "<size>",
+            },
+            "ini.js": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "is-fullwidth-code-point": Object {
+          "files": Object {
+            "index.js": Object {
+              "size": "<size>",
+            },
+            "license": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "isarray": Object {
+          "files": Object {
+            "Makefile": Object {
+              "size": "<size>",
+            },
+            "component.json": Object {
+              "size": "<size>",
+            },
+            "index.js": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "keytar": Object {
+          "files": Object {
+            "LICENSE.md": Object {
+              "size": "<size>",
+              "unpacked": true,
+            },
+            "build": Object {
+              "files": Object {
+                "Release": Object {
+                  "files": Object {
+                    "keytar.node": Object {
+                      "size": "<size>",
+                      "unpacked": true,
+                    },
+                  },
+                  "unpacked": true,
+                },
+                "node_gyp_bins": Object {
+                  "files": Object {
+                    "python3": Object {
+                      "size": "<size>",
+                      "unpacked": true,
+                    },
+                  },
+                  "unpacked": true,
+                },
+              },
+            },
+            "lib": Object {
+              "files": Object {
+                "keytar.js": Object {
+                  "size": "<size>",
+                  "unpacked": true,
+                },
+              },
+              "unpacked": true,
+            },
+            "package.json": Object {
+              "size": "<size>",
+              "unpacked": true,
+            },
+          },
+          "unpacked": true,
+        },
+        "mimic-response": Object {
+          "files": Object {
+            "index.js": Object {
+              "size": "<size>",
+            },
+            "license": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "minimist": Object {
+          "files": Object {
+            ".nycrc": Object {
+              "size": "<size>",
+            },
+            "LICENSE": Object {
+              "size": "<size>",
+            },
+            "index.js": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "mkdirp": Object {
+          "files": Object {
+            "LICENSE": Object {
+              "size": "<size>",
+            },
+            "bin": Object {
+              "files": Object {
+                "cmd.js": Object {
+                  "executable": true,
+                  "size": "<size>",
+                },
+                "usage.txt": Object {
+                  "size": "<size>",
+                },
+              },
+            },
+            "index.js": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "mkdirp-classic": Object {
+          "files": Object {
+            "LICENSE": Object {
+              "size": "<size>",
+            },
+            "index.js": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "ms": Object {
+          "files": Object {
+            "index.js": Object {
+              "size": "<size>",
+            },
+            "license.md": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "nan": Object {
+          "files": Object {
+            "LICENSE.md": Object {
+              "size": "<size>",
+            },
+            "doc": Object {
+              "files": Object {
+                "asyncworker.md": Object {
+                  "size": "<size>",
+                },
+                "buffers.md": Object {
+                  "size": "<size>",
+                },
+                "callback.md": Object {
+                  "size": "<size>",
+                },
+                "converters.md": Object {
+                  "size": "<size>",
+                },
+                "errors.md": Object {
+                  "size": "<size>",
+                },
+                "json.md": Object {
+                  "size": "<size>",
+                },
+                "maybe_types.md": Object {
+                  "size": "<size>",
+                },
+                "methods.md": Object {
+                  "size": "<size>",
+                },
+                "new.md": Object {
+                  "size": "<size>",
+                },
+                "node_misc.md": Object {
+                  "size": "<size>",
+                },
+                "object_wrappers.md": Object {
+                  "size": "<size>",
+                },
+                "persistent.md": Object {
+                  "size": "<size>",
+                },
+                "scopes.md": Object {
+                  "size": "<size>",
+                },
+                "script.md": Object {
+                  "size": "<size>",
+                },
+                "string_bytes.md": Object {
+                  "size": "<size>",
+                },
+                "v8_internals.md": Object {
+                  "size": "<size>",
+                },
+                "v8_misc.md": Object {
+                  "size": "<size>",
+                },
+              },
+            },
+            "include_dirs.js": Object {
+              "size": "<size>",
+            },
+            "nan.h": Object {
+              "size": "<size>",
+            },
+            "nan_callbacks.h": Object {
+              "size": "<size>",
+            },
+            "nan_callbacks_12_inl.h": Object {
+              "size": "<size>",
+            },
+            "nan_callbacks_pre_12_inl.h": Object {
+              "size": "<size>",
+            },
+            "nan_converters.h": Object {
+              "size": "<size>",
+            },
+            "nan_converters_43_inl.h": Object {
+              "size": "<size>",
+            },
+            "nan_converters_pre_43_inl.h": Object {
+              "size": "<size>",
+            },
+            "nan_define_own_property_helper.h": Object {
+              "size": "<size>",
+            },
+            "nan_implementation_12_inl.h": Object {
+              "size": "<size>",
+            },
+            "nan_implementation_pre_12_inl.h": Object {
+              "size": "<size>",
+            },
+            "nan_json.h": Object {
+              "size": "<size>",
+            },
+            "nan_maybe_43_inl.h": Object {
+              "size": "<size>",
+            },
+            "nan_maybe_pre_43_inl.h": Object {
+              "size": "<size>",
+            },
+            "nan_new.h": Object {
+              "size": "<size>",
+            },
+            "nan_object_wrap.h": Object {
+              "size": "<size>",
+            },
+            "nan_persistent_12_inl.h": Object {
+              "size": "<size>",
+            },
+            "nan_persistent_pre_12_inl.h": Object {
+              "size": "<size>",
+            },
+            "nan_private.h": Object {
+              "size": "<size>",
+            },
+            "nan_string_bytes.h": Object {
+              "size": "<size>",
+            },
+            "nan_typedarray_contents.h": Object {
+              "size": "<size>",
+            },
+            "nan_weak.h": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+            "tools": Object {
+              "files": Object {
+                "1to2.js": Object {
+                  "executable": true,
+                  "size": "<size>",
+                },
+                "README.md": Object {
+                  "size": "<size>",
+                },
+                "package.json": Object {
+                  "size": "<size>",
+                },
+              },
+            },
+          },
+        },
+        "napi-build-utils": Object {
+          "files": Object {
+            "LICENSE": Object {
+              "size": "<size>",
+            },
+            "index.js": Object {
+              "size": "<size>",
+            },
+            "index.md": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "noop-logger": Object {
+          "files": Object {
+            "History.md": Object {
+              "size": "<size>",
+            },
+            "Makefile": Object {
+              "size": "<size>",
+            },
+            "lib": Object {
+              "files": Object {
+                "index.js": Object {
+                  "size": "<size>",
+                },
+              },
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "npmlog": Object {
+          "files": Object {
+            "LICENSE": Object {
+              "size": "<size>",
+            },
+            "log.js": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "number-is-nan": Object {
+          "files": Object {
+            "index.js": Object {
+              "size": "<size>",
+            },
+            "license": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "object-assign": Object {
+          "files": Object {
+            "index.js": Object {
+              "size": "<size>",
+            },
+            "license": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "once": Object {
+          "files": Object {
+            "LICENSE": Object {
+              "size": "<size>",
+            },
+            "once.js": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "prebuild-install": Object {
+          "files": Object {
+            "CONTRIBUTING.md": Object {
+              "size": "<size>",
+            },
+            "LICENSE": Object {
+              "size": "<size>",
+            },
+            "asset.js": Object {
+              "size": "<size>",
+            },
+            "bin.js": Object {
+              "executable": true,
+              "size": "<size>",
+            },
+            "download.js": Object {
+              "size": "<size>",
+            },
+            "error.js": Object {
+              "size": "<size>",
+            },
+            "help.txt": Object {
+              "size": "<size>",
+            },
+            "index.js": Object {
+              "size": "<size>",
+            },
+            "log.js": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+            "proxy.js": Object {
+              "size": "<size>",
+            },
+            "rc.js": Object {
+              "size": "<size>",
+            },
+            "util.js": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "process-nextick-args": Object {
+          "files": Object {
+            "index.js": Object {
+              "size": "<size>",
+            },
+            "license.md": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "pump": Object {
+          "files": Object {
+            "LICENSE": Object {
+              "size": "<size>",
+            },
+            "index.js": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+            "test-browser.js": Object {
+              "size": "<size>",
+            },
+            "test-node.js": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "rc": Object {
+          "files": Object {
+            "LICENSE.APACHE2": Object {
+              "size": "<size>",
+            },
+            "LICENSE.BSD": Object {
+              "size": "<size>",
+            },
+            "LICENSE.MIT": Object {
+              "size": "<size>",
+            },
+            "browser.js": Object {
+              "size": "<size>",
+            },
+            "cli.js": Object {
+              "executable": true,
+              "size": "<size>",
+            },
+            "index.js": Object {
+              "executable": true,
+              "size": "<size>",
+            },
+            "lib": Object {
+              "files": Object {
+                "utils.js": Object {
+                  "size": "<size>",
+                },
+              },
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "readable-stream": Object {
+          "files": Object {
+            "CONTRIBUTING.md": Object {
+              "size": "<size>",
+            },
+            "GOVERNANCE.md": Object {
+              "size": "<size>",
+            },
+            "LICENSE": Object {
+              "size": "<size>",
+            },
+            "errors-browser.js": Object {
+              "size": "<size>",
+            },
+            "errors.js": Object {
+              "size": "<size>",
+            },
+            "experimentalWarning.js": Object {
+              "size": "<size>",
+            },
+            "lib": Object {
+              "files": Object {
+                "_stream_duplex.js": Object {
+                  "size": "<size>",
+                },
+                "_stream_passthrough.js": Object {
+                  "size": "<size>",
+                },
+                "_stream_readable.js": Object {
+                  "size": "<size>",
+                },
+                "_stream_transform.js": Object {
+                  "size": "<size>",
+                },
+                "_stream_writable.js": Object {
+                  "size": "<size>",
+                },
+                "internal": Object {
+                  "files": Object {
+                    "streams": Object {
+                      "files": Object {
+                        "async_iterator.js": Object {
+                          "size": "<size>",
+                        },
+                        "buffer_list.js": Object {
+                          "size": "<size>",
+                        },
+                        "destroy.js": Object {
+                          "size": "<size>",
+                        },
+                        "end-of-stream.js": Object {
+                          "size": "<size>",
+                        },
+                        "from-browser.js": Object {
+                          "size": "<size>",
+                        },
+                        "from.js": Object {
+                          "size": "<size>",
+                        },
+                        "pipeline.js": Object {
+                          "size": "<size>",
+                        },
+                        "state.js": Object {
+                          "size": "<size>",
+                        },
+                        "stream-browser.js": Object {
+                          "size": "<size>",
+                        },
+                        "stream.js": Object {
+                          "size": "<size>",
+                        },
+                      },
+                    },
+                  },
+                },
+              },
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+            "readable-browser.js": Object {
+              "size": "<size>",
+            },
+            "readable.js": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "safe-buffer": Object {
+          "files": Object {
+            "LICENSE": Object {
+              "size": "<size>",
+            },
+            "index.js": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "semver": Object {
+          "files": Object {
+            "LICENSE": Object {
+              "size": "<size>",
+            },
+            "bin": Object {
+              "files": Object {
+                "semver": Object {
+                  "executable": true,
+                  "size": "<size>",
+                },
+              },
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+            "range.bnf": Object {
+              "size": "<size>",
+            },
+            "semver.js": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "set-blocking": Object {
+          "files": Object {
+            "LICENSE.txt": Object {
+              "size": "<size>",
+            },
+            "index.js": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "signal-exit": Object {
+          "files": Object {
+            "LICENSE.txt": Object {
+              "size": "<size>",
+            },
+            "index.js": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+            "signals.js": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "simple-concat": Object {
+          "files": Object {
+            "LICENSE": Object {
+              "size": "<size>",
+            },
+            "index.js": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "simple-get": Object {
+          "files": Object {
+            "LICENSE": Object {
+              "size": "<size>",
+            },
+            "index.js": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "string-width": Object {
+          "files": Object {
+            "index.js": Object {
+              "size": "<size>",
+            },
+            "license": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "string_decoder": Object {
+          "files": Object {
+            "LICENSE": Object {
+              "size": "<size>",
+            },
+            "lib": Object {
+              "files": Object {
+                "string_decoder.js": Object {
+                  "size": "<size>",
+                },
+              },
+            },
+            "node_modules": Object {
+              "files": Object {
+                "safe-buffer": Object {
+                  "files": Object {
+                    "LICENSE": Object {
+                      "size": "<size>",
+                    },
+                    "index.js": Object {
+                      "size": "<size>",
+                    },
+                    "package.json": Object {
+                      "size": "<size>",
+                    },
+                  },
+                },
+              },
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "strip-ansi": Object {
+          "files": Object {
+            "index.js": Object {
+              "size": "<size>",
+            },
+            "license": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "strip-json-comments": Object {
+          "files": Object {
+            "index.js": Object {
+              "size": "<size>",
+            },
+            "license": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "tar-fs": Object {
+          "files": Object {
+            "LICENSE": Object {
+              "size": "<size>",
+            },
+            "index.js": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "tar-stream": Object {
+          "files": Object {
+            "LICENSE": Object {
+              "size": "<size>",
+            },
+            "extract.js": Object {
+              "size": "<size>",
+            },
+            "headers.js": Object {
+              "size": "<size>",
+            },
+            "index.js": Object {
+              "size": "<size>",
+            },
+            "pack.js": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+            "sandbox.js": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "tunnel-agent": Object {
+          "files": Object {
+            "LICENSE": Object {
+              "size": "<size>",
+            },
+            "index.js": Object {
+              "size": "<size>",
+            },
+            "node_modules": Object {
+              "files": Object {
+                "safe-buffer": Object {
+                  "files": Object {
+                    "LICENSE": Object {
+                      "size": "<size>",
+                    },
+                    "index.js": Object {
+                      "size": "<size>",
+                    },
+                    "package.json": Object {
+                      "size": "<size>",
+                    },
+                  },
+                },
+              },
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "util-deprecate": Object {
+          "files": Object {
+            "History.md": Object {
+              "size": "<size>",
+            },
+            "LICENSE": Object {
+              "size": "<size>",
+            },
+            "browser.js": Object {
+              "size": "<size>",
+            },
+            "node.js": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "which-pm-runs": Object {
+          "files": Object {
+            "LICENSE": Object {
+              "size": "<size>",
+            },
+            "index.js": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "wide-align": Object {
+          "files": Object {
+            "LICENSE": Object {
+              "executable": true,
+              "size": "<size>",
+            },
+            "align.js": Object {
+              "executable": true,
+              "size": "<size>",
+            },
+            "node_modules": Object {
+              "files": Object {
+                "ansi-regex": Object {
+                  "files": Object {
+                    "index.js": Object {
+                      "size": "<size>",
+                    },
+                    "license": Object {
+                      "size": "<size>",
+                    },
+                    "package.json": Object {
+                      "size": "<size>",
+                    },
+                  },
+                },
+                "is-fullwidth-code-point": Object {
+                  "files": Object {
+                    "index.js": Object {
+                      "size": "<size>",
+                    },
+                    "license": Object {
+                      "size": "<size>",
+                    },
+                    "package.json": Object {
+                      "size": "<size>",
+                    },
+                  },
+                },
+                "string-width": Object {
+                  "files": Object {
+                    "index.js": Object {
+                      "size": "<size>",
+                    },
+                    "license": Object {
+                      "size": "<size>",
+                    },
+                    "package.json": Object {
+                      "size": "<size>",
+                    },
+                  },
+                },
+                "strip-ansi": Object {
+                  "files": Object {
+                    "index.js": Object {
+                      "size": "<size>",
+                    },
+                    "license": Object {
+                      "size": "<size>",
+                    },
+                    "package.json": Object {
+                      "size": "<size>",
+                    },
+                  },
+                },
+              },
+            },
+            "package.json": Object {
+              "executable": true,
+              "size": "<size>",
+            },
+          },
+        },
+        "wrappy": Object {
+          "files": Object {
+            "LICENSE": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+            "wrappy.js": Object {
+              "size": "<size>",
+            },
+          },
+        },
+      },
+    },
+    "package.json": Object {
+      "size": "<size>",
+    },
+  },
+}
+`;
+
+exports[`posix smart unpack 3`] = `
+Array [
+  "app.asar",
+  "app.asar.unpacked/node_modules/keytar/LICENSE.md",
+  Object {
+    "content": "{
+  \\"main\\": \\"./lib/keytar.js\\",
+  \\"typings\\": \\"keytar.d.ts\\",
+  \\"name\\": \\"keytar\\",
+  \\"description\\": \\"Bindings to native Mac/Linux/Windows password APIs\\",
+  \\"version\\": \\"5.6.0\\",
+  \\"license\\": \\"MIT\\",
+  \\"repository\\": {
+    \\"type\\": \\"git\\",
+    \\"url\\": \\"https://github.com/atom/node-keytar.git\\"
+  },
+  \\"homepage\\": \\"http://atom.github.io/node-keytar\\",
+  \\"files\\": [
+    \\"lib\\",
+    \\"src\\",
+    \\"binding.gyp\\",
+    \\"keytar.d.ts\\"
+  ],
+  \\"types\\": \\"./keytar.d.ts\\",
+  \\"devDependencies\\": {
+    \\"babel-core\\": \\"^6.26.3\\",
+    \\"babel-plugin-transform-async-to-generator\\": \\"^6.24.1\\",
+    \\"chai\\": \\"^4.2.0\\",
+    \\"mocha\\": \\"^7.1.2\\",
+    \\"node-abi\\": \\"^2.16.0\\",
+    \\"node-cpplint\\": \\"~0.4.0\\",
+    \\"node-gyp\\": \\"^6.0.0\\",
+    \\"prebuild\\": \\"^10.0.0\\"
+  },
+  \\"dependencies\\": {
+    \\"nan\\": \\"2.14.1\\",
+    \\"prebuild-install\\": \\"5.3.3\\"
+  }
+}",
+    "name": "app.asar.unpacked/node_modules/keytar/package.json",
+  },
+  "app.asar.unpacked/node_modules/keytar/lib/keytar.js",
+  "app.asar.unpacked/node_modules/keytar/build/node_gyp_bins/python3",
+  "app.asar.unpacked/node_modules/keytar/build/Release/keytar.node",
+]
+`;
+
+exports[`relative index 1`] = `
+Object {
+  "linux": Array [],
+}
+`;
+
+exports[`win smart unpack 1`] = `
+Object {
+  "win": Array [],
+}
+`;
+
+exports[`win smart unpack 2`] = `
+Object {
+  "files": Object {
+    "app": Object {
+      "files": Object {
+        "package.json": Object {
+          "files": Object {
+            "readme.md": Object {
+              "size": "<size>",
+            },
+          },
+        },
+        "readme.md": Object {
+          "size": "<size>",
+        },
+      },
+    },
+    "index.html": Object {
+      "size": "<size>",
+    },
+    "index.js": Object {
+      "size": "<size>",
+    },
+    "node_modules": Object {
+      "files": Object {
+        "@electron-builder": Object {
+          "files": Object {
+            "test-smart-unpack": Object {
+              "files": Object {
+                "foo.dll": Object {
+                  "size": "<size>",
+                  "unpacked": true,
+                },
+                "package.json": Object {
+                  "size": "<size>",
+                  "unpacked": true,
+                },
+              },
+              "unpacked": true,
+            },
+            "test-smart-unpack-empty": Object {
+              "files": Object {
+                "package.json": Object {
+                  "size": "<size>",
+                },
+              },
+            },
+          },
+        },
+        "debug": Object {
+          "files": Object {
+            "LICENSE": Object {
+              "size": "<size>",
+            },
+            "Makefile": Object {
+              "size": "<size>",
+            },
+            "node.js": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+            "src": Object {
+              "files": Object {
+                "browser.js": Object {
+                  "size": "<size>",
+                },
+                "debug.js": Object {
+                  "size": "<size>",
+                },
+                "index.js": Object {
+                  "size": "<size>",
+                },
+                "node.js": Object {
+                  "size": "<size>",
+                },
+              },
+            },
+          },
+        },
+        "edge-cs": Object {
+          "files": Object {
+            "LICENSE.txt": Object {
+              "size": "<size>",
+              "unpacked": true,
+            },
+            "lib": Object {
+              "files": Object {
+                "bootstrap": Object {
+                  "files": Object {
+                    "Dummy.cs": Object {
+                      "size": "<size>",
+                      "unpacked": true,
+                    },
+                    "project.json": Object {
+                      "size": "<size>",
+                      "unpacked": true,
+                    },
+                  },
+                  "unpacked": true,
+                },
+                "edge-cs.dll": Object {
+                  "size": "<size>",
+                  "unpacked": true,
+                },
+                "edge-cs.js": Object {
+                  "size": "<size>",
+                  "unpacked": true,
+                },
+              },
+              "unpacked": true,
+            },
+            "package.json": Object {
+              "size": "<size>",
+              "unpacked": true,
+            },
+            "src": Object {
+              "files": Object {
+                "Edge.js.CSharp": Object {
+                  "files": Object {
+                    "EdgeCompiler.cs": Object {
+                      "size": "<size>",
+                      "unpacked": true,
+                    },
+                    "gulpfile.js": Object {
+                      "size": "<size>",
+                      "unpacked": true,
+                    },
+                    "package.json": Object {
+                      "size": "<size>",
+                      "unpacked": true,
+                    },
+                    "project.json": Object {
+                      "size": "<size>",
+                      "unpacked": true,
+                    },
+                  },
+                  "unpacked": true,
+                },
+                "edge-cs": Object {
+                  "files": Object {
+                    "EdgeCompiler.cs": Object {
+                      "size": "<size>",
+                      "unpacked": true,
+                    },
+                    "Properties": Object {
+                      "files": Object {
+                        "AssemblyInfo.cs": Object {
+                          "size": "<size>",
+                          "unpacked": true,
+                        },
+                      },
+                      "unpacked": true,
+                    },
+                  },
+                  "unpacked": true,
+                },
+              },
+            },
+            "tools": Object {
+              "files": Object {
+                "install.js": Object {
+                  "size": "<size>",
+                  "unpacked": true,
+                },
+              },
+              "unpacked": true,
+            },
+          },
+          "unpacked": true,
+        },
+        "ms": Object {
+          "files": Object {
+            "index.js": Object {
+              "size": "<size>",
+            },
+            "license.md": Object {
+              "size": "<size>",
+            },
+            "package.json": Object {
+              "size": "<size>",
+            },
+          },
+        },
+      },
+    },
+    "package.json": Object {
+      "size": "<size>",
+    },
+  },
+}
+`;
+
+exports[`win smart unpack 3`] = `
+Array [
+  "app.asar",
+  "app.asar.unpacked/node_modules/edge-cs/LICENSE.txt",
+  Object {
+    "content": "{
+  \\"name\\": \\"edge-cs\\",
+  \\"author\\": {
+    \\"name\\": \\"Tomasz Janczuk <tomasz@janczuk.org>\\",
+    \\"url\\": \\"http://tomasz.janczuk.org\\",
+    \\"twitter\\": \\"tjanczuk\\"
+  },
+  \\"version\\": \\"1.2.1\\",
+  \\"description\\": \\"Edge-cs: run C# and node.js code in-process with edge.js\\",
+  \\"main\\": \\"./lib/edge-cs.js\\",
+  \\"engines\\": {
+    \\"node\\": \\">= 0.8\\"
+  },
+  \\"licenses\\": [
+    {
+      \\"type\\": \\"Apache\\",
+      \\"url\\": \\"http://www.apache.org/licenses/LICENSE-2.0\\"
+    }
+  ],
+  \\"dependencies\\": {},
+  \\"homepage\\": \\"http://tjanczuk.github.com/edge\\",
+  \\"repository\\": {
+    \\"type\\": \\"git\\",
+    \\"url\\": \\"git@github.com:tjanczuk/edge-cs.git\\"
+  }
+}",
+    "name": "app.asar.unpacked/node_modules/edge-cs/package.json",
+  },
+  "app.asar.unpacked/node_modules/edge-cs/tools/install.js",
+  "app.asar.unpacked/node_modules/edge-cs/src/edge-cs/EdgeCompiler.cs",
+  "app.asar.unpacked/node_modules/edge-cs/src/edge-cs/Properties/AssemblyInfo.cs",
+  "app.asar.unpacked/node_modules/edge-cs/src/Edge.js.CSharp/EdgeCompiler.cs",
+  "app.asar.unpacked/node_modules/edge-cs/src/Edge.js.CSharp/gulpfile.js",
+  Object {
+    "content": "{
+    \\"devDependencies\\": {
+        \\"gulp\\": \\"3.9.0\\"
+    }
+}",
+    "name": "app.asar.unpacked/node_modules/edge-cs/src/Edge.js.CSharp/package.json",
+  },
+  "app.asar.unpacked/node_modules/edge-cs/src/Edge.js.CSharp/project.json",
+  "app.asar.unpacked/node_modules/edge-cs/lib/edge-cs.dll",
+  "app.asar.unpacked/node_modules/edge-cs/lib/edge-cs.js",
+  "app.asar.unpacked/node_modules/edge-cs/lib/bootstrap/Dummy.cs",
+  "app.asar.unpacked/node_modules/edge-cs/lib/bootstrap/project.json",
+  "app.asar.unpacked/node_modules/@electron-builder/test-smart-unpack/foo.dll",
+  Object {
+    "content": "{
+  \\"name\\": \\"@electron-builder/test-smart-unpack\\",
+  \\"version\\": \\"1.0.0\\"
+}
+",
+    "name": "app.asar.unpacked/node_modules/@electron-builder/test-smart-unpack/package.json",
+  },
+]
+`;
+
+exports[`win smart unpack 4`] = `
+Array [
+  "node_modules/@electron-builder/test-smart-unpack/package.json",
+  "node_modules/@electron-builder/test-smart-unpack-empty/package.json",
+  "node_modules/debug/.coveralls.yml",
+  "node_modules/debug/.eslintrc",
+  "node_modules/debug/.npmignore",
+  "node_modules/debug/.travis.yml",
+  "node_modules/debug/CHANGELOG.md",
+  "node_modules/debug/README.md",
+  "node_modules/debug/karma.conf.js",
+  "node_modules/debug/node.js",
+  "node_modules/debug/package.json",
+  "node_modules/debug/src/browser.js",
+  "node_modules/debug/src/debug.js",
+  "node_modules/debug/src/index.js",
+  "node_modules/debug/src/node.js",
+  "node_modules/edge-cs/.gitattributes",
+  "node_modules/edge-cs/.npmignore",
+  "node_modules/edge-cs/LICENSE.txt",
+  "node_modules/edge-cs/README.md",
+  "node_modules/edge-cs/package.json",
+  "node_modules/edge-cs/tools/install.js",
+  "node_modules/edge-cs/src/Edge.js.CSharp",
+  "node_modules/edge-cs/src/edge-cs/EdgeCompiler.cs",
+  "node_modules/edge-cs/src/edge-cs/edge-cs.csproj",
+  "node_modules/edge-cs/src/edge-cs/edge-cs.sln",
+  "node_modules/edge-cs/src/edge-cs/Properties/AssemblyInfo.cs",
+  "node_modules/edge-cs/src/Edge.js.CSharp/EdgeCompiler.cs",
+  "node_modules/edge-cs/src/Edge.js.CSharp/edge-cs-coreclr.sln",
+  "node_modules/edge-cs/src/Edge.js.CSharp/edge-cs-coreclr.xproj",
+  "node_modules/edge-cs/src/Edge.js.CSharp/gulpfile.js",
+  "node_modules/edge-cs/src/Edge.js.CSharp/package.json",
+  "node_modules/edge-cs/src/Edge.js.CSharp/project.json",
+  "node_modules/edge-cs/lib/edge-cs.js",
+  "node_modules/edge-cs/lib/bootstrap/Dummy.cs",
+  "node_modules/edge-cs/lib/bootstrap/project.json",
+  "node_modules/ms/index.js",
+  "node_modules/ms/license.md",
+  "node_modules/ms/package.json",
+  "node_modules/ms/readme.md",
+]
+`;
+
+exports[`www as default dir 1`] = `
+Object {
+  "linux": Array [],
+}
+`;
